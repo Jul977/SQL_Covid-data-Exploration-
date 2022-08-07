@@ -96,7 +96,7 @@ AND CD.DATE = CV.DATE
 WHERE CD.CONTINENT IS NOT NULL
 ORDER BY 2,3
 
--- USE CTE
+-- USING CTE
 
 WITH PopvsVac (continent, location, date, population, new_vaccinations, RollingPeopleVaccinated) AS
 (
